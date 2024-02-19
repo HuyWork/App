@@ -3,7 +3,7 @@ import { Image, ImageBackground, Text,
             View, TouchableOpacity } from "react-native"
 import { images, icons } from "../constants"
 
-function Welcome(props) {
+function welcome(props) {
     return <View style={{
         flex: 1
     }}>
@@ -90,36 +90,6 @@ function Welcome(props) {
                         fontSize: 16
                     }}> Infuencer </Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={{
-                    borderWidth: 1,
-                    height: 45,
-                    borderColor: 'white',
-                    borderRadius: 5,
-                    marginHorizontal: 20,
-                    marginVertical: 5,
-                    justifyContent: 'center',
-                    alignItems: 'center'
-                }}>
-                    <Text style={{
-                        color: 'white',
-                        fontSize: 16
-                    }}> Business </Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={{
-                    borderWidth: 1,
-                    height: 45,
-                    borderColor: 'white',
-                    borderRadius: 5,
-                    marginHorizontal: 20,
-                    marginVertical: 5,
-                    justifyContent: 'center',
-                    alignItems: 'center'
-                }}>
-                    <Text style={{
-                        color: 'white',
-                        fontSize: 16
-                    }}> Individual </Text>
-                </TouchableOpacity>
             </View>
             <View style={{
                 flex: 30
@@ -128,4 +98,4 @@ function Welcome(props) {
         </ImageBackground>
     </View>
 }
-export default Welcome
+export default welcome

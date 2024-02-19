@@ -1,4 +1,4 @@
 export default {
-    fire: require('../assets/Icon_Fire.png'),
-    question: require('../assets/Icon_Question.png')
+    fire: require('../assets/icon_fire.png'),
+    question: require('../assets/icon_question.png')
 }
