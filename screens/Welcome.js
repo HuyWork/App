@@ -2,6 +2,7 @@ import React from "react"
 import { Image, ImageBackground, Text, 
             View, TouchableOpacity } from "react-native"
 import { images, icons } from "../constants"
+import { UIButton } from "../components"
 
 function welcome(props) {
     return <View style={{
@@ -73,23 +74,7 @@ function welcome(props) {
             <View style={{
                 flex: 40
             }}>
-                <TouchableOpacity style={{
-                    flexDirection: 'row',
-                    borderWidth: 1,
-                    height: 45,
-                    borderColor: 'white',
-                    borderRadius: 5,
-                    marginHorizontal: 20,
-                    marginVertical: 5,
-                    justifyContent: 'center',
-                    alignItems: 'center'
-                }}>
-                    
-                    <Text style={{
-                        color: 'white',
-                        fontSize: 16
-                    }}> Infuencer </Text>
-                </TouchableOpacity>
+                <UIButton />
             </View>
             <View style={{
                 flex: 30
